@@ -1,17 +1,19 @@
 {
   "devDependencies": {
     "@eslint/create-config": "*",
+    "@types/gulp": "^4.0.9",
+    "@types/node": "^17.0.25",
+    "@types/shelljs": "^0.8.11",
     "eslint": "*",
     "gulp": "*",
     "gulp-plumber": "*",
     "ts-node": "*",
     "tsconfig-paths": "*",
     "typescript": "*",
-    "@types/gulp": "^4.0.9",
-    "@types/node": "^17.0.25",
     "cdk8s": "*",
     "cdk8s-cli": "*",
     "cdk8s-plus-21": "*",
-    "constructs": "*"
+    "constructs": "*",
+    "shelljs": "^0.8.5"
   }
 }

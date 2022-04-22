@@ -20,9 +20,7 @@ export async function buildConfigDev() {
 
 export async function importConfig() {
   process.chdir("gulpfile.ts/config-gen/cdk8s");
-  const { stdout, stderr } = await x("npx cdk8s import");
-  console.log("stdout:", stdout);
-  console.log("stderr:", stderr);
+  await x("npx cdk8s import");
 }
 
 export async function importConfigDev() {

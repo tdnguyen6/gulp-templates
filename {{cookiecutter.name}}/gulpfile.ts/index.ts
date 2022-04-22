@@ -1,9 +1,8 @@
 import { x } from "@/utils";
+import { echo } from "shelljs";
 
 export async function hello() {
-  const { stdout, stderr } = await x("echo Hello World");
-  console.log(stdout);
-  console.log(stderr);
+  await echo("echo Hello World");
 }
 
 export * from "@/config-gen";
