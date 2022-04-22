@@ -1,8 +1,7 @@
-import { x } from "@/utils";
-import { echo } from "shelljs";
+import { xjs } from "@/utils";
 
 export async function hello() {
-  await echo("echo Hello World");
+  await xjs("echo Hello World");
 }
 
 export * from "@/config-gen";
