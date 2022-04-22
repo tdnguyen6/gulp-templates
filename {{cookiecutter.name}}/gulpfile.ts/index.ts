@@ -5,3 +5,5 @@ export async function hello() {
   console.log(stdout);
   console.log(stderr);
 }
+
+export * from "@/config-gen";

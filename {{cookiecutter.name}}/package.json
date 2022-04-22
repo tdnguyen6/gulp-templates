@@ -8,6 +8,10 @@
     "tsconfig-paths": "*",
     "typescript": "*",
     "@types/gulp": "^4.0.9",
-    "@types/node": "^17.0.25"
+    "@types/node": "^17.0.25",
+    "cdk8s": "*",
+    "cdk8s-cli": "*",
+    "cdk8s-plus-21": "*",
+    "constructs": "*"
   }
 }
