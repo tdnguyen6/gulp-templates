@@ -1,4 +1,4 @@
-import { x } from "./utils";
+import { x } from "@/utils";
 
 export async function hello() {
   const { stdout, stderr } = await x("echo Hello World");
